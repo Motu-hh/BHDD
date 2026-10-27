@@ -48,3 +48,16 @@ logs/
 !/dataset/dvlog/label/valid/.gitkeep
 /dataset/dvlog/label/test/*
 !/dataset/dvlog/label/test/.gitkeep
+
+# Local reproduction datasets, labels and derived sample metadata
+/dataset/LMVD_real_v1/
+/dataset/LMVD_clean_v2/
+/synthetic_data/
+/data_access/
+/code-version.local.txt
+/requirements.local.txt
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
